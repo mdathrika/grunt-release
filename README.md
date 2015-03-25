@@ -161,6 +161,7 @@ The following are all the release steps, you can disable any you need to:
       beforeRelease: [], // optional grunt tasks to run after release version is bumped up but before release is packaged
       afterRelease: [], // optional grunt tasks to run after release is packaged
       github: {
+        apiRoot: 'http://git.example.com/v3', // Default: Github.com
         repo: 'geddski/grunt-release', //put your user/repo here
         usernameVar: 'GITHUB_USERNAME', //ENVIRONMENT VARIABLE that contains Github username
         passwordVar: 'GITHUB_PASSWORD' //ENVIRONMENT VARIABLE that contains Github password
